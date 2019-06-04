@@ -1,0 +1,17 @@
+.entry-title,.entry-content h2,.entry-content h4, .widget-title {
+	color: #00bcd4;
+}
+
+.site-header, .site-content, .site-footer{
+	
+	animation: disolver 2s ease-in 0s 1 normal none;
+}
+
+@keyframes disolver {
+	0% { opacity: 0;}
+	100% {opacity:1;}
+}
+
+.widget-area {
+	background-color: #f9f9f9;
+}
